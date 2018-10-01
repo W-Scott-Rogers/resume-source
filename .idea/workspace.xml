@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="58a5ac86-3ad7-43f5-a66a-08396a0c9576" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/jsimports.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/jsimports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/section_additionalinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/section_additionalinfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/section_bitbucket.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/section_bitbucket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/section_blogs.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/section_blogs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/section_education.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/section_education.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/section_expertise.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/section_expertise.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/section_github.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/section_github.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/section_intro.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/section_intro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/section_stackoverflow.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/section_stackoverflow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/section_workexperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/section_workexperience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-override.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap-override.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/css" beforeDir="false" afterPath="$PROJECT_DIR$/css/css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/example-bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/example-bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blue-linen.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/blue-linen.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/egg-white-linen.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/egg-white-linen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/glyphicons-halflings-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/glyphicons-halflings-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/glyphicons-halflings.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/glyphicons-halflings.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gravatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/gravatar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gray_jean.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/gray_jean.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/configuration.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/configuration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.bitbucketRepoWidget.custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.bitbucketRepoWidget.custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.githubRepoWidget.custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.githubRepoWidget.custom.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-64641892">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="10" />
+          <entry key="gitignore" value="2" />
+          <entry key="html" value="49" />
+          <entry key="jpeg" value="1" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="12" />
+          <entry key="map" value="1" />
+          <entry key="md" value="1" />
+          <entry key="png" value="15" />
+          <entry key="yml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="8" />
+          <entry key="Git file" value="1" />
+          <entry key="HTML" value="49" />
+          <entry key="Image" value="17" />
+          <entry key="JavaScript" value="12" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="SourceMap" value="1" />
+          <entry key="YAML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="233" />
+          <entry key="gitignore" value="38" />
+          <entry key="html" value="1070" />
+          <entry key="js" value="41" />
+          <entry key="yml" value="2602" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="233" />
+          <entry key="Git file" value="2" />
+          <entry key="HTML" value="1070" />
+          <entry key="JavaScript" value="41" />
+          <entry key="PLAIN_TEXT" value="36" />
+          <entry key="YAML" value="2602" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-2042413252">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="CNAME" value="2" />
+          <entry key="browserslist" value="1" />
+          <entry key="css" value="14" />
+          <entry key="editorconfig" value="2" />
+          <entry key="gitignore" value="2" />
+          <entry key="html" value="43" />
+          <entry key="ico" value="1" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="12" />
+          <entry key="json" value="12" />
+          <entry key="lock" value="3" />
+          <entry key="log" value="4" />
+          <entry key="map" value="7" />
+          <entry key="md" value="1" />
+          <entry key="nojekyll" value="1" />
+          <entry key="ts" value="22" />
+          <entry key="yarn-integrity" value="2" />
+          <entry key="yml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="14" />
+          <entry key="Git file" value="2" />
+          <entry key="HTML" value="43" />
+          <entry key="Image" value="2" />
+          <entry key="JSON" value="11" />
+          <entry key="JavaScript" value="12" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="SourceMap" value="7" />
+          <entry key="TypeScript" value="22" />
+          <entry key="YAML" value="4" />
+          <entry key="tsconfig" value="1" />
+          <entry key="yarn.lock" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="114" />
+          <entry key="editorconfig" value="1" />
+          <entry key="gitignore" value="2" />
+          <entry key="html" value="1341" />
+          <entry key="js" value="451" />
+          <entry key="json" value="346" />
+          <entry key="ts" value="2942" />
+          <entry key="yml" value="173" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="114" />
+          <entry key="Git file" value="2" />
+          <entry key="HTML" value="1341" />
+          <entry key="JSON" value="254" />
+          <entry key="JavaScript" value="451" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="TypeScript" value="2942" />
+          <entry key="YAML" value="173" />
+          <entry key="tsconfig" value="92" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="Angular2LanguageService" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-167558545">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="json" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resume/angular/angular.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resume/angular/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>CONFIGURATION</find>
+      <find>.links</find>
+      <find>type=&quot;text</find>
+      <find>}'</find>
+      <find>github</find>
+      <find>github-</find>
+      <find>class=&quot;github</find>
+      <find>box_title_png</find>
+      <find>-widget</find>
+      <find>&lt;style</find>
+      <find>jquery</find>
+      <find>https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js</find>
+      <find>http</find>
+      <find>watchers</find>
+      <find>indent</find>
+      <find>// -</find>
+      <find>response</find>
+      <find>images</find>
+      <find>../img</find>
+      <find>glyphicons</find>
+      <find>assets/</find>
+      <find>body {</find>
+      <find>.label</find>
+      <find>badge-info</find>
+      <find>label-info</find>
+      <find>responseType</find>
+      <find>trash-80/</find>
+      <find>body</find>
+      <find>dist</find>
+      <find>.no</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>http://bitbucket.org</replace>
+      <replace>bitbucket</replace>
+      <replace>github-box</replace>
+      <replace>experience</replace>
+      <replace>https://</replace>
+      <replace>https://fonts.googleapis.com/css?family=</replace>
+      <replace>https://fonts.googleapis.com/css?family=Source+Sans+Pro</replace>
+      <replace>url('https://w-scott-rogers.github.io/assets</replace>
+      <replace>vcs-</replace>
+      <replace>}</replace>
+      <replace>'</replace>
+      <replace>../assets/img</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\Scott\iCloudDrive\Resume\w-scott-rogers.github.io\_includes</dir>
+      <dir>C:\Users\Scott\iCloudDrive\Resume\w-scott-rogers.github.io</dir>
+      <dir>C:\Users\Scott\Projects\w-scott-rogers.github.io\resume</dir>
+      <dir>C:\Users\Scott\Projects\w-scott-rogers.github.io\resume\src\app</dir>
+      <dir>C:\Users\Scott\Projects\w-scott-rogers.github.io\resume\src\assets</dir>
+      <dir>C:\Users\Scott\Projects\w-scott-rogers.github.io\resume\angular</dir>
+      <dir>C:\Users\Scott\Projects\w-scott-rogers.github.io</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/_includes/section_intro.html" />
+        <option value="$PROJECT_DIR$/_includes/section_workexperience.html" />
+        <option value="$PROJECT_DIR$/_includes/section_stackoverflow.html" />
+        <option value="$PROJECT_DIR$/_includes/section_expertise.html" />
+        <option value="$PROJECT_DIR$/_includes/section_bitbucket.html" />
+        <option value="$PROJECT_DIR$/css/main_style.css" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/assets/css/custom.css" />
+        <option value="$PROJECT_DIR$/assets/javascript/test.css" />
+        <option value="$PROJECT_DIR$/assets/css/github-box.css" />
+        <option value="$PROJECT_DIR$/assets/javascript/jquery.bitbucketRepoWidget.custom.js" />
+        <option value="$PROJECT_DIR$/assets/css/source-control.css" />
+        <option value="$PROJECT_DIR$/assets/javascript/jquery.githubRepoWidget.custom.js" />
+        <option value="$PROJECT_DIR$/_includes/head.html" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/_includes/section_github.html" />
+        <option value="$PROJECT_DIR$/_includes/section_blogfeed.html" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/resume/.editorconfig" />
+        <option value="$PROJECT_DIR$/resume/tslint.json" />
+        <option value="$PROJECT_DIR$/resume/.gitignore" />
+        <option value="$PROJECT_DIR$/resume/src/app/app.component.spec.ts" />
+        <option value="$PROJECT_DIR$/resume/src/app/typings.d.ts" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/resume/src/app/model/resume.model.ts" />
+        <option value="$PROJECT_DIR$/resume/src/patch.js" />
+        <option value="$PROJECT_DIR$/resume/patch.js" />
+        <option value="$PROJECT_DIR$/resume/package.json" />
+        <option value="$PROJECT_DIR$/resume/src/app/model/yaml-load.ts" />
+        <option value="$PROJECT_DIR$/resume/src/app/model/typings.d.ts" />
+        <option value="$PROJECT_DIR$/resume/src/app/model/yaml-load.js" />
+        <option value="$PROJECT_DIR$/resume/src/app/model/yamlModel.ts" />
+        <option value="$PROJECT_DIR$/resume/src/app/model/yaml.service.ts" />
+        <option value="$PROJECT_DIR$/resume/src/app/service/yaml.service.ts" />
+        <option value="$PROJECT_DIR$/resume/src/assets/css/bootstrap-override.css" />
+        <option value="$PROJECT_DIR$/assets/css/bootstrap-override.css" />
+        <option value="$PROJECT_DIR$/resume/src/app/service/github/github.service.ts" />
+        <option value="$PROJECT_DIR$/resume/src/app/service/yaml/yaml.service.ts" />
+        <option value="$PROJECT_DIR$/resume/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/resume/src/assets/_config.yml" />
+        <option value="$PROJECT_DIR$/resume/src/app/service/github/github-user.service.ts" />
+        <option value="$PROJECT_DIR$/resume/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/resume/src/assets/css/main_style.css" />
+        <option value="$PROJECT_DIR$/resume/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/resume/src/index.html" />
+        <option value="$PROJECT_DIR$/resume/src/app/app.component.css" />
+        <option value="$PROJECT_DIR$/resume/angular/tsconfig.json" />
+        <option value="$PROJECT_DIR$/resume/angular/package.json" />
+        <option value="$PROJECT_DIR$/docs/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/resume/angular/angular.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/resume/angular/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/resume/angular/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="518" />
+    <option name="y" value="-16" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>Assignment issuesJava</id>
+          </State>
+          <State>
+            <id>Bean Validation</id>
+          </State>
+          <State>
+            <id>CDI (Contexts and Dependency Injection)</id>
+          </State>
+          <State>
+            <id>Class metricsJava</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code maturityJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Concurrency annotation issuesJava</id>
+          </State>
+          <State>
+            <id>Control flow issuesGroovy</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flowJava</id>
+          </State>
+          <State>
+            <id>Declaration redundancyGroovy</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>DeclarationGroovy</id>
+          </State>
+          <State>
+            <id>Dependency issuesJava</id>
+          </State>
+          <State>
+            <id>EncapsulationJava</id>
+          </State>
+          <State>
+            <id>Error handlingJava</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>ImportsJava</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>InitializationJava</id>
+          </State>
+          <State>
+            <id>J2ME issuesJava</id>
+          </State>
+          <State>
+            <id>JPA</id>
+          </State>
+          <State>
+            <id>JRuby</id>
+          </State>
+          <State>
+            <id>JUnitJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java EE</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaBeans issuesJava</id>
+          </State>
+          <State>
+            <id>JavaFX</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript function metricsJavaScript</id>
+          </State>
+          <State>
+            <id>JavadocJava</id>
+          </State>
+          <State>
+            <id>LoggingJava</id>
+          </State>
+          <State>
+            <id>MemoryJava</id>
+          </State>
+          <State>
+            <id>Method metricsGroovy</id>
+          </State>
+          <State>
+            <id>Method metricsJava</id>
+          </State>
+          <State>
+            <id>Modularization issuesJava</id>
+          </State>
+          <State>
+            <id>Naming conventionsGroovy</id>
+          </State>
+          <State>
+            <id>Naming conventionsJava</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>Packaging issuesJava</id>
+          </State>
+          <State>
+            <id>PerformanceJava</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>RESTful Web Service</id>
+          </State>
+          <State>
+            <id>Reflective accessJava</id>
+          </State>
+          <State>
+            <id>RegExp</id>
+          </State>
+          <State>
+            <id>Ruby</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>SecurityJava</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>TypeScript</id>
+          </State>
+          <State>
+            <id>VisibilityJava</id>
+          </State>
+          <State>
+            <id>toString() issuesJava</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="resume-source" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resume-source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="resume-source" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resume-source" type="462c0819:PsiDirectoryNode" />
+              <item name="resume" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="resume-source" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resume-source" type="462c0819:PsiDirectoryNode" />
+              <item name="resume" type="462c0819:PsiDirectoryNode" />
+              <item name="angular" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/resume/node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/webpack-configs/browser.js" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
+    <property name="jsx.switch.disabled" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Users\Scott\Projects\w-scott-rogers.github.io\resume\angular\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Scott\Projects\w-scott-rogers.github.io" />
+      <recent name="C:\Users\Scott\Projects\w-scott-rogers.github.io\resume\angular" />
+      <recent name="C:\Users\Scott\Projects\w-scott-rogers.github.io\jekyll" />
+      <recent name="C:\Users\Scott\Projects\w-scott-rogers.github.io\resume\src\app\service\yaml" />
+      <recent name="C:\Users\Scott\Projects\w-scott-rogers.github.io\resume" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Scott\Projects\w-scott-rogers.github.io\resume\src\assets" />
+      <recent name="C:\Users\Scott\Projects\w-scott-rogers.github.io\resume\src\app\model" />
+      <recent name="C:\Users\Scott\iCloudDrive\Resume\w-scott-rogers.github.io\assets\img" />
+      <recent name="C:\Users\Scott\iCloudDrive\Resume\w-scott-rogers.github.io\_includes" />
+      <recent name="C:\Users\Scott\iCloudDrive\Resume\w-scott-rogers.github.io\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58a5ac86-3ad7-43f5-a66a-08396a0c9576" name="Default Changelist" comment="" />
+      <created>1537315015774</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537315015774</updated>
+      <workItem from="1537315018622" duration="5197000" />
+      <workItem from="1537320770949" duration="25545000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="30742000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2238806" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32850778" />
+      <window_info anchor="bottom" id="Gradle View" order="11" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
+      <window_info anchor="bottom" id="TypeScript" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="SciView" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/resume/src/assets/css/example-bootstrap.min.css" />
+    <entry file="file://$PROJECT_DIR$/resume/src/assets/bootstrap/css/bootstrap-theme.css.map" />
+    <entry file="file://$PROJECT_DIR$/resume/src/assets/bootstrap/css/bootstrap.css.map" />
+    <entry file="file://$PROJECT_DIR$/resume/src/assets/css/bootstrap.min.css" />
+    <entry file="file://$PROJECT_DIR$/resume/src/assets/bootstrap/css/bootstrap.min.css.map" />
+    <entry file="file://$PROJECT_DIR$/resume/src/assets/bootstrap/css/bootstrap.min.css" />
+    <entry file="file://$PROJECT_DIR$/jekyll/_includes/section_expertise.html" />
+    <entry file="file://$PROJECT_DIR$/resume/src/assets/css/bootstrap-override.css" />
+    <entry file="file://$PROJECT_DIR$/jekyll/_includes/section_intro.html" />
+    <entry file="file://$PROJECT_DIR$/jekyll/_includes/section_workexperience.html" />
+    <entry file="file://$PROJECT_DIR$/jekyll/_includes/section_education.html" />
+    <entry file="file://$PROJECT_DIR$/jekyll/_includes/section_additionalinfo.html" />
+    <entry file="file://$PROJECT_DIR$/jekyll/_includes/footer.html" />
+    <entry file="file://$PROJECT_DIR$/jekyll/_includes/header.html" />
+    <entry file="file://$PROJECT_DIR$/resume/src/app/service/yaml/typings.d.ts" />
+    <entry file="file://$PROJECT_DIR$/jekyll/assets/css/bootstrap-override.css" />
+    <entry file="file://$PROJECT_DIR$/resume/src/app/service/yaml/yaml-load.js" />
+    <entry file="file://$PROJECT_DIR$/resume/src/app/service/yaml/yaml.service.ts" />
+    <entry file="file://$PROJECT_DIR$/resume/node_modules/@angular/common/http/src/client.d.ts" />
+    <entry file="file://$PROJECT_DIR$/resume/src/assets/_config.yml" />
+    <entry file="file://$PROJECT_DIR$/resume/src/app/app.component.css" />
+    <entry file="file://$PROJECT_DIR$/resume/src/app/app.component.html" />
+    <entry file="file://$PROJECT_DIR$/resume/src/app/app.component.ts" />
+    <entry file="file://$PROJECT_DIR$/resume/src/app/app.module.ts" />
+    <entry file="file://$PROJECT_DIR$/jekyll/assets/javascript/configuration.js" />
+    <entry file="file://$PROJECT_DIR$/jekyll/_layouts/default.html" />
+    <entry file="file://$PROJECT_DIR$/resume/src/app/service/github/github-user.service.ts" />
+    <entry file="file://$PROJECT_DIR$/jekyll/_includes/head.html" />
+    <entry file="file://$PROJECT_DIR$/jekyll/assets/javascript/jquery.bitbucketRepoWidget.custom.js" />
+    <entry file="file://$PROJECT_DIR$/resume/src/assets/css/main_style.css" />
+    <entry file="file://$PROJECT_DIR$/jekyll/index.html" />
+    <entry file="file://$PROJECT_DIR$/jekyll/assets/javascript/jquery.githubRepoWidget.custom.js" />
+    <entry file="file://$PROJECT_DIR$/jekyll/_includes/section_github.html" />
+    <entry file="file://$PROJECT_DIR$/resume/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/resume/angular/src/app/service/yaml/yaml.service.ts" />
+    <entry file="file://$PROJECT_DIR$/resume/jekyll/_layouts/default.html" />
+    <entry file="file://$PROJECT_DIR$/resume/jekyll/index.html" />
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/.nojekyll" />
+    <entry file="file://$PROJECT_DIR$/docs/main_style.4f2dec3b.map" />
+    <entry file="file://$PROJECT_DIR$/docs/blue-linen.4b64d162.jpg" />
+    <entry file="file://$PROJECT_DIR$/resume/angular/src/favicon.ico" />
+    <entry file="file://$PROJECT_DIR$/resume/angular/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/CNAME" />
+    <entry file="file://$PROJECT_DIR$/main.js.map" />
+    <entry file="file://$PROJECT_DIR$/runtime.js.map" />
+    <entry file="file://$PROJECT_DIR$/resume/angular/tsconfig.json" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/resume/angular/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resume/angular/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

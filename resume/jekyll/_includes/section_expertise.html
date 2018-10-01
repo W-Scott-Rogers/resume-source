@@ -1,0 +1,24 @@
+<div class="expertise-section">Expertise</div>
+{% for expert in site.expertise %}
+<div id="skillsBubble" class="rounded_panel linen-blond-box">
+    <div class="top-rounded-panel grey-bg">
+        <h1 id="user-skills">{{expert.title}}</h1>
+    </div>
+    <div class="content-rounded-panel">
+        <div id="{{expert.title}}">
+            {% if expert.type == 'word' %}
+            {% for detail in expert.details %}
+            <span class="label label-info label-padded"> {{detail}} </span> &nbsp;
+            {% endfor %}
+            {% endif %}
+            {% if expert.type == 'sentence' %}
+            <dl>
+            {% for detail in expert.details %}
+            <dt class="label label-info label-padded" style="white-space: normal;"> {{detail}} </dt> &nbsp;
+            {% endfor %}
+            </dl>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endfor %}

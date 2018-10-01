@@ -1,0 +1,218 @@
+<div *ngIf="configurationLoaded | async" class="body">
+    <nav id="header" class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    {{data.title}}
+                </a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li *ngFor="let link of data.primarylinks">
+                        <a target='_blank' href="{{link.url}}">{{link.title}}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br/>
+    <div id="body&footer">
+        <div id="columns">
+            <div class="col-md-2" id="left-column">
+                <div id="stackoverflow">
+                    <div class="rounded_panel linen-blond-box" *ngIf="data.stackoverflow">
+                        <div class="top-rounded-panel grey-bg">
+                            <h1>StackOverflow Flair</h1>
+                        </div>
+                        <div class="content-rounded-panel">
+                            <div id="stackScore">
+                                <a target='_blank' href="{{data.stackoverflow.profileurl}}">
+                                    <img src="{{data.stackoverflow.flairimageurl}}" width="208" height="58"
+                                         alt="profile at Stack Overflow, Q&amp;A for professional and enthusiast programmers"
+                                         title="profile at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="expertise">
+                    <div class="expertise-section">Expertise</div>
+
+                    <div id="skillsBubble" class="rounded_panel linen-blond-box" *ngFor="let expert of data.expertise">
+                        <div class="top-rounded-panel grey-bg">
+                            <h1 id="user-skills">{{expert.title}}</h1>
+                        </div>
+                        <div class="content-rounded-panel">
+                            <div id="{{expert.title}}-word" *ngIf="expert.type == 'word'">
+                                <div *ngFor="let detail of expert.details"
+                                     class="expertise-tag label badge-info label-padded"><span> {{detail}} </span></div>
+                            </div>
+                            <div id="{{expert.title}}-sentence" *ngIf="expert.type == 'sentence'">
+                                <dl style="margin: 0;">
+                                    <dt *ngFor="let detail of expert.details"
+                                        class="expertise-term label badge-info label-padded"> {{detail}}
+                                    </dt>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-10" id="right-column">
+                <!--{% include section_intro.html %}-->
+                <div id="introduction" class="rounded_panel txt_lightgrey">
+                    <div class="top-rounded-panel grey-bg">
+                        <h1 id="user-intro">Introduction &amp; Background</h1>
+                    </div>
+                    <div class="content-rounded-panel" style="font-size: 15px;">
+                        <div id="introBlurb" *ngIf="data.introduction">
+                            <ul>
+                                <li *ngFor="let intro of data.introduction">{{intro}}</li>
+                            </ul>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+                <!--{% include section_workexperience.html %}-->
+                <div id="work-experience" class="rounded_panel txt_lightgrey">
+                    <div class="top-rounded-panel grey-bg">
+                        <h1>Work Experience</h1>
+                    </div>
+                    <div class="content-rounded-panel">
+                        <div>
+                            <table class="table table-striped table-hover table-condensed">
+                                <thead>
+                                <tr>
+                                    <th><a style="cursor: pointer;">Title</a></th>
+                                    <th><a style="cursor: pointer;">Start</a></th>
+                                    <th><a style="cursor: pointer;">End</a></th>
+                                    <th><a style="cursor: pointer;">Company</a></th>
+                                    <th class="hidden-sm hidden-xs"><a style="cursor: pointer;">Description</a></th>
+                                    <th><a style="cursor: pointer;">Specific Example</a></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr *ngFor="let experience of data.experiences">
+                                    <td>{{experience.title}}</td>
+                                    <td>{{experience.start}}</td>
+                                    <td>{{experience.end}}</td>
+                                    <td>{{experience.employer}}</td>
+                                    <td class="hidden-sm hidden-xs">
+                                        <ul>
+                                            <li *ngFor="let desc of experience.description">{{desc}}</li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul *ngIf="experience.example">
+                                            <li *ngFor="let examp of experience.example">{{examp}}</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+                <!--{% include section_education.html %}-->
+                <div class="rounded_panel txt_lightgrey">
+                    <div class="top-rounded-panel grey-bg">
+                        <h1>Formal Education</h1>
+                    </div>
+                    <div class="content-rounded-panel">
+                        <div>
+                            <table class="table table-striped table-hover table-condensed">
+                                <thead>
+                                <tr>
+                                    <th><a style="cursor: pointer;">Certification</a></th>
+                                    <th><a style="cursor: pointer;">Subject</a></th>
+                                    <th><a style="cursor: pointer;">Date Completed</a></th>
+                                    <th class="hidden-sm hidden-xs"><a style="cursor: pointer;">University</a></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr id="EducationData_2500" *ngFor="let edu of data.education">
+                                    <td>{{edu.level}}</td>
+                                    <td>{{edu.subject}}</td>
+                                    <td>{{edu.date}}</td>
+                                    <td class="hidden-sm hidden-xs">{{edu.school}}</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+                <!--{% include section_github.html %}-->
+                <script src="../assets/javascript/jquery-3.3.1.min.js"></script>
+                <script type="text/javascript" async=""
+                        src="../assets/javascript/jquery.githubRepoWidget.custom.js"></script>
+
+                <div *ngIf="githubRepositoryLoaded | async" class="rounded_panel txt_lightgrey">
+                    <div class="top-rounded-panel grey-bg">
+                        <h1>GitHub Projects — <a class="owner"
+                                                 href="https://github.com/{{data['github'].user}}"
+                                                 title="https://github.com/{{data['github'].user}}">{{data['github'].user}}</a>
+                        </h1>
+                    </div>
+                    <div class="content-rounded-panel" style="overflow: hidden;">
+                        <div>
+                            <div [class.row]="i%2 == 1" *ngFor="let project of github; let i = index">
+                                <div class="col-lg-6">
+                                    <div class="vcs-widget">
+                                        <div class="vcs-box repo">
+                                            <div class="vcs-box-title">
+                                                <h3>
+                                                    <a class="repo"
+                                                       href="{{project['html_url']}}"
+                                                       title="{{project['html_url']}}">{{project['full_name']}}</a>
+                                                </h3>
+                                                <div class="vcs-stats">
+                                                    <a class="watchers"
+                                                       href="{{project['html_url']}}/watchers"
+                                                       title="See watchers">{{project['watchers']}}</a>
+                                                    <a class="forks"
+                                                       href="{{project['html_url']}}/network/members"
+                                                       title="See forkers">{{project['forks']}}</a>
+                                                </div>
+                                            </div>
+                                            <div class="vcs-box-content">
+                                                <p class="description">
+                                                    <span>{{project['description']}}</span>
+                                                    — <a href="{{project['html_url']}}#readme">Read More</a>
+                                                </p>
+                                                <p class="link"></p>
+                                            </div>
+                                            <div class="vcs-box-download">
+                                                <div class="updated">
+                                                    Latest commit to the <strong>{{project['default_branch']}}</strong> branch on {{showDate(project['pushed_at'])}}
+                                                </div>
+                                                <a class="download" href="{{project['html_url']}}/zipball/{{project['default_branch']}}"
+                                                   title="Get an archive of this repository">Download as zip</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--{% include section_additionalinfo.html %}-->
+                <div id="additional-info" class="rounded_panel txt_lightgrey" *ngIf="data.additionalinfo">
+                    <div class="top-rounded-panel grey-bg">
+                        <h1>Additional Information</h1>
+                    </div>
+                    <div class="content-rounded-panel">
+                        <div [innerHTML]="data.additionalinfo">
+                            <!--{{data.additionalinfo}}-->
+                        </div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

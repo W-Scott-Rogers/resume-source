@@ -1,0 +1,17 @@
+<div id="introBubble" class="rounded_panel txt_lightgrey">
+    <div class="top-rounded-panel grey-bg">
+        <h1 id="user-intro">Introduction &amp; Background</h1>
+    </div>
+    <div class="content-rounded-panel" style="font-size: 15px;">
+        <div id="introBlurb">
+            {% if site.introduction %}
+            <ul>
+                {% for intro in site.introduction %}
+                <li>{{intro}}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </div>
+        <br>
+    </div>
+</div>
