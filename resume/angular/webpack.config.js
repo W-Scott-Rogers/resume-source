@@ -1,3 +1,4 @@
+module.exports = require('./config/webpack.dev.js');
 plugins: [
     new webpack.optimize.UglifyJsPlugin()
 ]
