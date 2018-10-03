@@ -1,4 +1,4 @@
-html,body {
+html, body {
     background: url('../img/gray_jean.png');
     padding-top: 40px;
     color: rgb(24, 24, 24);
@@ -55,23 +55,15 @@ table {
     top: 20px;
 }
 
-/*#header_container {*/
-/*!**background-color:#1E3D5A;**!*/
-/*background: #fff url('../images/txtDarkBground.png');*/
-
-/*}*/
-
 #inner_div {
     display: inline;
 
 }
 
 #container {
-    margin: 0 auto;
     min-width: 1000px;
-    /*max-width:1000px;*/
     min-height: 100%;
-    margin-bottom: -30px;
+    margin: 0 auto -30px;
     position: relative;
 }
 
@@ -91,16 +83,11 @@ table {
     position: relative;
     margin: 0 auto;
     min-width: 1000px;
-    /*max-width:1000px;*/
     color: white;
     font-size: small;
     text-align: center;
     padding-top: 5px;
 }
-
-/*#footer_container{*/
-/*background: #262626; !*url('../images/txtDarkBground.png');*!*/
-/*}*/
 
 .clearfooter {
     height: 30px;
@@ -108,14 +95,8 @@ table {
 }
 
 .rounded_menu {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 0px;
-    margin-bottom: 10px;
+    padding: 10px;
+    margin: 0px 5px 10px;
 }
 
 .top-rounded-panel {
@@ -137,10 +118,8 @@ table {
 .content-rounded-panel {
     padding-left: 10px;
     padding-right: 10px;
-    /*padding-bottom:10px;*/
     margin-left: 5px;
     margin-right: 5px;
-    /*margin-bottom:10px;*/
 }
 
 .rounded_panel {
@@ -153,10 +132,7 @@ table {
 }
 
 .column_menu {
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 5px;
     font-size: 9px;
 }
 
@@ -436,10 +412,6 @@ td.loginRow {
 .bitbucket-box {
     margin-top: 15px;
 }
-
-/*.linen-dk-blue-box {*/
-/*background-image: url("../img/blue-linen.png");*/
-/*}*/
 
 .linen-lt-blue-box {
     background-image: url(../img/blue-linen.jpg);
