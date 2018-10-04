@@ -29,54 +29,33 @@ const config = {
     module: {
         rules: [{
             test: /\.ts$/,
-            exclude: [
-                /node_modules/
-            ],
             loaders: [
                 '@ngtools/webpack',
                 'ts-loader'
             ]
         },{
-            test: /\.js$/,
-            exclude: [
-                /node_modules/
-            ],
-            loader: '@angular-devkit/build-optimizer/webpack-loader',
-            options: {
-                sourceMap: false
-            }
-        },{
+        //     test: /\.js$/,
+        //     loader: '@angular-devkit/build-optimizer/webpack-loader',
+        //     options: {
+        //         sourceMap: false
+        //     }
+        // },{
             test: /\.html$/,
-            exclude: [
-                /node_modules/
-            ],
             loader: "html-loader?exportAsEs5Default"
         },{
             test: /(\.css|\.scss)$/,
-            exclude: [
-                /node_modules/
-            ],
             use: [
                 'style-loader',
                 'css-loader?url=false'
             ]
         },{
             test: /\.(jpe?g|png|gif|svg)$/i,
-            exclude: [
-                /node_modules/
-            ],
             loader: 'img-loader'
         },{
             test: /\.(woff(2)?|ttf|eot|svg|ico|gif)(\?v=\d+\.\d+\.\d+)?$/,
-            exclude: [
-                /node_modules/
-            ],
             loader: 'file-loader'
         },{
             test: /\.yml$/,
-            exclude: [
-                /node_modules/
-            ],
             loader: 'yaml',
         }]
     },

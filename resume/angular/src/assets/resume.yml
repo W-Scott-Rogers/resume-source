@@ -1,0 +1,190 @@
+# Site settings
+title: 'Warren << Scott >> Rogers'
+name: Warren Scott Rogers
+location: Missouri, U.S.A.
+introduction:
+- 'I am an experienced Agile Full Stack Java Software Engineer at Accenture with a history working in Software Development Life Cycle (SDLC) within the services industry.'
+- 'I am skilled in RESTful APIs built with Java and Groovy, Javascript, Angular, Python, Bash, Spring Frameworks, and AWS.'
+- 'I am a strong information technology professional with a software development focused Bachelor of Science (B.S.) in Information Technology from Missouri Southern State University.'
+- 'I enjoy creating great products with great user experiences and working in a dynamic environment with a focus on good development practices, automation and shipping small, frequent releases.'
+
+# Build settings
+markdown: kramdown
+
+#User specific content
+#Links that will appear in the navbar
+primarylinks:
+-   title: Homepage
+    url: http://trash80.org
+-   title: Blog
+    url: http://trash80.org/blog
+-   title: GitHub
+    url: https://github.com/trash-80
+-   title: Bitbucket
+    url: https://bitbucket.org/trash-80
+-   title: StackOverflow
+    url: https://stackoverflow.com/users/1191714/trash80
+-   title: LinkedIn
+    url: https://www.linkedin.com/in/scott-rogers-52117073
+-   title: Twitter
+    url: https://twitter.com/w_scott_rogers
+
+#Any buzzword skills you want to include
+expertise:
+-   title: Technologies
+    type: word
+    details:
+    - Agile
+    - AWS
+    - 'Crucible / Peer Review'
+    - GeoServer
+    - Git
+    - GitLab
+    - Gradle
+    - Jenkins
+    - Jira
+    - JPA
+    - LDAP
+    - Maven
+    - Nexus
+    - REST
+    - SOAP
+    - Software Development Life Cycle
+    - Subversion
+-   title: Languages
+    type: word
+    details:
+    - Bash
+    - Groovy
+    - Java
+    - Javascript
+    - Python
+    - SQL
+-   title: Libraries
+    type: word
+    details:
+    - Angular.io
+    - Angular.js
+    - Extjs
+    - Typescript
+    - Spring Boot
+    - Spring MVC
+    - Spring Security
+    - iBatis
+    - Hibernate
+    - Jersey
+    - Central Authentication Service (CAS)
+    - GeoExt
+-   title: Skills
+    type: sentence
+    details:
+    - '26+ years computing experience'
+    - '11 years programming experience'
+    - 'Management of employees and resources'
+    - 'Working knowledge of Microsoft Products (Word, Excel, Visual Studio, Server & Desktop)'
+    - 'Various Linux, Unix and *BSD flavors and utilities'
+-   title: 'Merits, Awards, Certifications, and Organizations'
+    type: sentence
+    details:
+    - 'Two Army Achievement Medals'
+    - 'Successfully completed Green Belt training for lean manufacturing at Allied Signal'
+    - 'Certificate for successfully completing Coaching & Evaluation Seminar at Cobb-Vantress'
+    - 'President of the MSSU Computer Information Science Club'
+    - "Dean's list Honor Role - Spring and Fall 2007, Fall 2009"
+    - 'Member of Phi-Eta-Sigma -- Freshman Honors Society'
+    - 'Member of Sigma Tau Delta -- English Honors Society'
+
+#Work experience is required
+experiences:
+-   title: Senior Full Stack Software Engineer
+    start: 2010
+    end: Ongoing
+    employer: Accenture PLC
+    description:
+    - 'Apply industry best practices and detailed knowledge of Department of Defense web based application solutions.'
+    - 'Analyze customer requests using functional and technical assessments.'
+    - 'Collaborate with system architects to develop and deliver software solutions per customer requirements.'
+    - 'Refine user stories, user story estimates, task breakdown for user stories, and software delivery lifecycle activities, as well as, work with the technical team lead to ensure design and coding are meeting the architecture vision and standards.'
+    - 'Assist with all aspects of software delivery lifecycle to ensure delivery.'
+    - 'Mentor the team members on software engineering skills and technologies.'
+    example:
+    - 'Designed and wrote code for a global event tracking via mapping technologies using OpenLayers, ExtJS, and Angular.io'
+    - 'Designed and wrote code for PDF export of event data.'
+    - 'Update and maintain code to support newest security technologies.'
+-   title: Open Source
+    start: 2006
+    end: Present
+    employer: Self
+    description:
+    - 'Some repositories private.  Access available upon request.'
+    - 'Co-author of open source application inxi (bash): https://github.com/smxi/inxi'
+    - 'Author of guanxi, GUI frontend to inxi: https://github.com/trash-80/'
+    - 'OpenSSH-FIPS compliant Apache Web Server builder: https://bitbucket.org/trash-80/'
+-   title: Tutor - Mathematics and Computer Information Systems
+    start: 2009
+    end: 2010
+    employer: Missouri Souther State University
+    description:
+    - 'Tutored students requesting help in Algebra, basic Math, Trigonometry, as well as computer software use and development.'
+-   title: Certified Heavy Wheeled Mechanic - Field Artillery
+    start: 1989
+    end: 1998
+    employer: Kansas Army National Guard
+    description:
+    - Worked with teams on mission critical objectives.
+
+
+
+#Education is required
+education:
+-   level: Bachelor of Science (B.Sc.)
+    date: 2010
+    subject: Information Systems - Software Development focus
+    school: Missouri Southern State University
+-   level: Minor - Professional Writing and Technical Documentation
+    date: 2010
+    subject: English
+    school: Missouri Southern State University
+
+#List of interesting Github repo/projects to include - optional
+github:
+    user: trash-80
+    fork: false # true to show contributor status
+    repo:
+    - trash-80/xiin
+    - trash-80/guanxi
+    - trash-80/Pyne2
+    - trash-80/PyneCone
+    - trash-80/Spectacles
+    - trash-80/guanxi.nw
+
+bitbucket:
+- trash-80/acndiff
+- trash-80/apache_bld-x32
+- trash-80/apache-httpd-fips-ssl-x64
+- trash-80/auto-java-update
+- trash-80/axcent
+- trash-80/guanxi
+- trash-80/pyne
+- trash-80/pynecone
+- trash-80/rally-export
+- trash-80/spectacles
+- trash-80/xiin
+
+#Stackoverflow flair is optional
+stackoverflow:
+    profileurl: https://stackoverflow.com/users/1191714/trash80
+    flairimageurl: https://stackoverflow.com/users/flair/1191714.png
+
+
+#An additional info freetext section is optional at the bottom of the page - can be text or HTML
+additionalinfo: |
+    <strong>JVM</strong>: I am experienced in a variety of Java and Groovy API’s and frameworks.<br/>
+        I have recently worked with Spring MVC 5, Spring Security 5, JPA/Hibernate.<br/>
+        In my current role Groovy is the primary language used - and I am familiar with many of the language's features. <br/><br/>
+    <strong>Web Development</strong>: My server side web development experience has largely been based on RESTful Java via Jersey.<br/>
+        I have also worked with client side technologies such as: Javascript, Angular (both .js and .io), Extjs, jQuery, Bootstrap, LESS, SASS and have also experimented with other interesting technologies such as Backbone and Underscore.<br/><br/>
+    <strong>Development Control</strong>: I have good knowledge of application life-cycle management and have worked with Subversion, Git, Maven, Gradle, and Jenkins.<br/>
+        I have experience with an array of testing tools and technologies.<br/><br/>
+    I have also gained experience and knowledge of other technologies from several side projects and research that I have undertaken in my free time.<br/><br/>
+    I occasionally write a blog covering life, technical subjects, and opinion articles at: <a target='_blank' href="http://trash80.org/blog/">Nerd @ Play</a><br/><br/>

@@ -1,0 +1,22 @@
+{
+    "name": "@trash80/github",
+    "version": "1.0.0",
+    "description": "simple GitHub http client",
+    "main": "index.ts",
+    "author": "W. Scott Rogers",
+    "license": "MIT",
+    "keywords": [
+        "github"
+    ],
+    "repository": {
+        "url": "git@github.com:W-Scott-Rogers/resume-source.git",
+        "type": "git"
+    },
+    "scripts": {
+        "build" : "tsc"
+    },
+    "dependencies": {
+        "tslib": "^1.9.3",
+        "typescript": "2.9.2"
+    }
+}

@@ -1,0 +1,84 @@
+# Site settings
+title: 'Diesha Rogers'
+name: Diesha Rogers
+location: Missouri, U.S.A.
+introduction:
+- 'Experienced manager looking for a position as part of a professionally managed organization where I can use my knowledge and skills while being challenged and working to improve my own skills on an ongoing basis.'
+- 'Committed to ensuring that quality standards are upheld to promote optimal customer satisfaction and a quality product.'
+
+# Build settings
+markdown: kramdown
+
+#User specific content
+#Links that will appear in the navbar
+primarylinks:
+-   title: LinkedIn
+    url: https://www.linkedin.com/in/diesha-tabor-rogers-98122275/
+
+#Any buzzword skills you want to include
+expertise:
+-   title: Core Qualifications
+    type: sentence
+    details:
+        - 'Strong commitment to assigned tasks'
+        - 'Teamwork'
+        - 'Ability to focus on and meet tight deadlines'
+        - 'Excellent ability to clearly define and execute instructions'
+        - 'Clear written and oral communicator'
+        - 'Keen observational abilities'
+        - 'Quick Learner'
+        - 'Knowledge of Microsoft Office Suite of products'
+        - 'Typing:  30+ WPM'
+-   title: Skills
+    type: word
+    details:
+        - 'Training Facilitation'
+        - 'Management'
+        - 'Logistics/Scheduling'
+        - 'Logistics/Scheduling'
+-   title: Awards
+    type: sentence
+    details:
+        - 'BLUE DIAMOND CLUB, 2016'
+        - 'EMPLOYEE OF THE MONTH, 2016'
+        - 'HIGH PERFORMANCE MANAGEMENT TECHNIQUES CERTIFIED WITH HONORS, 2011'
+
+#Work experience is required
+experiences:
+-   title: Training Manager
+    start: 7/2008
+    end: Ongoing
+    employer: Teleperformance USA-FHCS
+    description:
+    - 'Manage teams at different sites (12 total direct reports).'
+    - 'Facilitate leadership and development training.'
+    - 'Build and maintain relationships with internal and external customers throughout the organization.'
+    - 'Reported any observed issues to management immediately when implementing new timekeeping program.'
+    - 'Analyze attrition data to form action plans.'
+    - 'Ensure accuracy in payroll and scheduling.'
+-   title: Telemarketing Sales Representative
+    start: 5/2008
+    end: 7/2008
+    employer: Communication Solutions
+    description:
+    - 'Enter accurate account and order information.'
+    - 'Maintain a positive attitude while assisting customers.'
+    - 'Communicate with a variety of customers, internal and external.'
+-   title: Licensed Property & Casualty Insurance Agent/CSR
+    start: 7/2006
+    end: 2/2008
+    employer: Selby-Granger Insurance Agency
+    description:
+    - 'Enter accurate account updates.'
+    - 'Adapted to diverse customer personalities.'
+    - 'Communicate with a variety of customers, internal and external.'
+    - 'Matching a customer’s needs with the proper insurance product.'
+    - 'Moved from Receptionist to Licensed Agent within the first 12 months of employment.'
+
+#Education is required
+education:
+-   level: Bachelor of Science
+    date: 2006
+    subject: General Studies
+    school: Missouri Southern State University
+
