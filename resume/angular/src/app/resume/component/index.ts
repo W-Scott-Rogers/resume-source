@@ -1,1 +1,2 @@
-export * from './src/resume.component'
+export * from './framework'
+export * from './section'

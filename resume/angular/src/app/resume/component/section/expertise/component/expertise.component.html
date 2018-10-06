@@ -1,0 +1,16 @@
+<div class="top-rounded-panel grey-bg">
+    <h1 id="user-skills">{{data.title}}</h1>
+</div>
+<div class="content-rounded-panel">
+    <div id="{{data.title}}-word" *ngIf="data.type == 'word'">
+        <div *ngFor="let detail of data.details"
+             class="expertise-tag label badge-info label-padded"><span> {{detail}} </span></div>
+    </div>
+    <div id="{{data.title}}-sentence" *ngIf="data.type == 'sentence'">
+        <dl style="margin: 0;">
+            <dt *ngFor="let detail of data.details"
+                class="expertise-term label badge-info label-padded"> {{detail}}
+            </dt>
+        </dl>
+    </div>
+</div>

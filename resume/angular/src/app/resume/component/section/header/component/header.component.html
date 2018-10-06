@@ -1,0 +1,16 @@
+<nav id="header" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+                {{data.title}}
+            </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li *ngFor="let link of data.primarylinks">
+                    <a target='_blank' href="{{link.url}}">{{link.title}}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
