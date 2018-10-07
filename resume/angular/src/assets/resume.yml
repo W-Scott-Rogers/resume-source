@@ -1,35 +1,36 @@
 # Site settings
-created-by: 'Created: by <a href="mailto:email.address?Subject=Resume%20Source">Put Your Name Here</a>  via <a href="https://github.com/W-Scott-Rogers/resume-source" >Resume Source</a>'
-title: 'Place your page title here'
-name: First Middle Last
-location: Earth, Milky Way
+created-by: 'Created: by <a href="mailto:warren.scott.rogers@trash80.org?Subject=Resume%20Source">W. Scott Rogers (aka trash80)</a>  via <a href="https://github.com/W-Scott-Rogers/resume-source" >Resume Source</a>'
+title: 'Warren << Scott >> Rogers'
+name: Warren Scott Rogers
+location: Missouri, U.S.A.
 introduction:
-- "Introduce yourself, use as many lines as needed, each line wraps, so keep each short. It's an introduction after all"
+- 'I am an experienced Agile Full Stack Java Software Engineer at Accenture with a working history in Software Development Life Cycle (SDLC) within the services industry.'
+- 'I am skilled in RESTful APIs built with Java and Groovy, Javascript, Angular, Python, Bash, Spring Frameworks, and AWS.'
+- 'I am a strong information technology professional with a software development focused Bachelor of Science (B.S.) in Information Technology from Missouri Southern State University.'
+- 'I enjoy creating great products with great user experiences and working in a dynamic environment with a focus on good development practices, automation and shipping small, frequent releases.'
 
 # Build settings
 markdown: kramdown
 
-# Links that will appear in the navbar
-# This can be None or more, no limit (link responsibly)
+#User specific content
+#Links that will appear in the navbar
 primarylinks:
 -   title: Homepage
-    url: https://en.wikipedia.org/wiki/Home_page # add your own homepage
+    url: http://trash80.org
 -   title: Blog
-    url: https://en.wikipedia.org/wiki/Blog
+    url: http://trash80.org/blog
 -   title: GitHub
-    url: https://github.com # add your GitHub home page
+    url: https://github.com/trash-80
 -   title: Bitbucket
-    url: https://bitbucket.org # add your Bitbucket home page
+    url: https://bitbucket.org/trash-80
 -   title: StackOverflow
-    url: https://stackoverflow.com # add your Stackoverflow home page
+    url: https://stackoverflow.com/users/1191714/trash80
 -   title: LinkedIn
-    url: https://www.linkedin.com # add your linkedin home page
+    url: https://www.linkedin.com/in/scott-rogers-52117073
 -   title: Twitter
-    url: https://twitter.com # add your Twitter page
+    url: https://twitter.com/w_scott_rogers
 
-# Any buzzword skills you want to include
-# 'word' => lets the words be multiples per line with multiple lines
-# 'sentence' => each line on it's own line, word wrapped
+#Any buzzword skills you want to include
 expertise:
 -   title: Technologies
     type: word
@@ -96,64 +97,99 @@ expertise:
 
 #Work experience is required
 experiences:
--   title: Software Developer
-    start: 1970
+-   title: Senior Full Stack Software Engineer
+    start: 2010
     end: Ongoing
-    employer: Earth
+    employer: Accenture PLC
     description:
-    - 'Add as many descriptions as needed, just copy this line.'
-    - "Quotes aren't required"
-    - Just add words, but betware some characters can cause issues.
+    - 'Apply industry best practices and detailed knowledge of Department of Defense web based application solutions.'
+    - 'Analyze customer requests using functional and technical assessments.'
+    - 'Collaborate with system architects to develop and deliver software solutions per customer requirements.'
+    - 'Refine user stories, user story estimates, task breakdown for user stories, and software delivery lifecycle activities, as well as, work with the technical team lead to ensure design and coding are meeting the architecture vision and standards.'
+    - 'Assist with all aspects of software delivery lifecycle to ensure delivery.'
+    - 'Mentor the team members on software engineering skills and technologies.'
     example:
-    - 'This is a place for specific examples of work done'
+    - 'Designed and wrote code for a global event tracking via mapping technologies using OpenLayers, ExtJS, and Angular.io'
+    - 'Designed and wrote code for PDF export of event data.'
+    - 'Update and maintain code to support newest security technologies.'
 -   title: Open Source
-    start: 1972
+    start: 2006
     end: Present
-    employer: Internet
+    employer: Self
     description:
-    - 'The Internet, enjoy it'
+    - 'Some repositories private.  Access available upon request.'
+    - 'Co-author of open source application inxi (bash): https://github.com/smxi/inxi'
+    - 'Author of guanxi, GUI frontend to inxi: https://github.com/trash-80/'
+    - 'OpenSSH-FIPS compliant Apache Web Server builder: https://bitbucket.org/trash-80/'
 -   title: Tutor - Mathematics and Computer Information Systems
-    start: 1970
-    end: present
-    employer: University
+    start: 2009
+    end: 2010
+    employer: Missouri Souther State University
     description:
     - 'Tutored students requesting help in Algebra, basic Math, Trigonometry, as well as computer software use and development.'
+-   title: Certified Heavy Wheeled Mechanic - Field Artillery
+    start: 1989
+    end: 1998
+    employer: Kansas Army National Guard
+    description:
+    - Worked with teams on mission critical objectives.
 
 
 
 #Education is required
 education:
 -   level: Bachelor of Science (B.Sc.)
-    date: 1970
-    subject: Software Development
-    school: University
--   level: Maybe a Masters
-    date: 1970
+    date: 2010
+    subject: Information Systems - Software Development focus
+    school: Missouri Southern State University
+-   level: Minor - Professional Writing and Technical Documentation
+    date: 2010
     subject: English
-    school: Ann Other University
+    school: Missouri Southern State University
 
-# List of interesting Github repo/projects to include - optional
-# these examples won't work without real accounts
+#List of interesting Github repo/projects to include - optional
 github:
--   user: user-name
+-   user: trash-80
     fork: false # true to show contributor status
     repo:
-    - user-name/repo1
-    - user-name/repo2
-    - user-name/repo3
--   user: user-name-b
+    - trash-80/xiin
+    - trash-80/guanxi
+    - trash-80/Pyne2
+    - trash-80/PyneCone
+    - trash-80/Spectacles
+    - trash-80/guanxi.nw
+-   user: W-Scott-Rogers
     fork: false
     repo:
-    - user-name-b/resume-source
+    - W-Scott-Rogers/resume-source
 
-bitbucket: # Not yet supported, help is welcome
+bitbucket:
+- trash-80/acndiff
+- trash-80/apache_bld-x32
+- trash-80/apache-httpd-fips-ssl-x64
+- trash-80/auto-java-update
+- trash-80/axcent
+- trash-80/guanxi
+- trash-80/pyne
+- trash-80/pynecone
+- trash-80/rally-export
+- trash-80/spectacles
+- trash-80/xiin
 
 #Stackoverflow flair is optional
 stackoverflow:
-    profileurl: https://stackoverflow.com/users/ # add your profile name
-    flairimageurl: https://stackoverflow.com/users/flair/ # add your flair image
+    profileurl: https://stackoverflow.com/users/1191714/trash80
+    flairimageurl: https://stackoverflow.com/users/flair/1191714.png
 
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
-    <strong>Misc</strong>:<br/>Just add anything here, HTML works, enjoy and good luck
+    <strong>JVM</strong>:<br/> I am experienced in a variety of Java and Groovy API’s and frameworks.<br/>
+        I have recently worked with Spring MVC 5, Spring Security 5, JPA/Hibernate.<br/>
+        In my current role Groovy is the primary language used - and I am familiar with many of the language's features. <br/><br/>
+    <strong>Web Development</strong>:<br/> My server side web development experience has largely been based on RESTful Java via Jersey.<br/>
+        I have also worked with client side technologies such as: Javascript, Angular (both .js and .io), Extjs, jQuery, Bootstrap, LESS, SASS and have also experimented with other interesting technologies such as Backbone and Underscore.<br/><br/>
+    <strong>Development Control</strong>:<br/> I have good knowledge of application life-cycle management and have worked with Subversion, Git, Maven, Gradle, and Jenkins.<br/>
+        I have experience with an array of testing tools and technologies.<br/><br/>
+    I have also gained experience and knowledge of other technologies from several side projects and research that I have undertaken in my free time.<br/><br/>
+    I occasionally write a blog covering life, technical subjects, and opinion articles at: <a target='_blank' href="http://trash80.org/blog/">Nerd @ Play</a><br/><br/>

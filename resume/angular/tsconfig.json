@@ -24,6 +24,6 @@
   "exclude": [
     ".editorconfig",
     "node_modules",
-    "**/*.spec.ts"
+    "*.spec.ts"
   ]
 }

@@ -24,9 +24,8 @@ export class GithubComponent implements AfterViewInit {
         let me = this;
         me.github.user = me.data['user'];
         this.githubUserService.getForUser(me.github.user).subscribe((response: Object) => {
-            if (response['meta']['status'] === '200') {
-                let repoData = response['data'] && response['data'].length > 1 ? response['data'].first() : response['data'];
-                me.github.repositories = repoData.filter(repo => {
+            if (response['meta']['status'] === 200) {
+                me.github.repositories = response['data'].filter(repo => {
                     return me.data['repo'].includes(repo['full_name']);
                 });
             }

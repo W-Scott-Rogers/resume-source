@@ -1,0 +1,159 @@
+# Site settings
+created-by: 'Created: by <a href="mailto:email.address?Subject=Resume%20Source">Put Your Name Here</a>  via <a href="https://github.com/W-Scott-Rogers/resume-source" >Resume Source</a>'
+title: 'Place your page title here'
+name: First Middle Last
+location: Earth, Milky Way
+introduction:
+- "Introduce yourself, use as many lines as needed, each line wraps, so keep each short. It's an introduction after all"
+
+# Build settings
+markdown: kramdown
+
+# Links that will appear in the navbar
+# This can be None or more, no limit (link responsibly)
+primarylinks:
+-   title: Homepage
+    url: https://en.wikipedia.org/wiki/Home_page # add your own homepage
+-   title: Blog
+    url: https://en.wikipedia.org/wiki/Blog
+-   title: GitHub
+    url: https://github.com # add your GitHub home page
+-   title: Bitbucket
+    url: https://bitbucket.org # add your Bitbucket home page
+-   title: StackOverflow
+    url: https://stackoverflow.com # add your Stackoverflow home page
+-   title: LinkedIn
+    url: https://www.linkedin.com # add your linkedin home page
+-   title: Twitter
+    url: https://twitter.com # add your Twitter page
+
+# Any buzzword skills you want to include
+# 'word' => lets the words be multiples per line with multiple lines
+# 'sentence' => each line on it's own line, word wrapped
+expertise:
+-   title: Technologies
+    type: word
+    details:
+    - Agile
+    - AWS
+    - 'Crucible / Peer Review'
+    - GeoServer
+    - Git
+    - GitLab
+    - Gradle
+    - Jenkins
+    - Jira
+    - JPA
+    - LDAP
+    - Maven
+    - Nexus
+    - REST
+    - SOAP
+    - Software Development Life Cycle
+    - Subversion
+-   title: Languages
+    type: word
+    details:
+    - Bash
+    - Groovy
+    - Java
+    - Javascript
+    - Python
+    - SQL
+-   title: Libraries
+    type: word
+    details:
+    - Angular.io
+    - Angular.js
+    - Extjs
+    - Typescript
+    - Spring Boot
+    - Spring MVC
+    - Spring Security
+    - iBatis
+    - Hibernate
+    - Jersey
+    - Central Authentication Service (CAS)
+    - GeoExt
+-   title: Skills
+    type: sentence
+    details:
+    - '26+ years computing experience'
+    - '11 years programming experience'
+    - 'Management of employees and resources'
+    - 'Working knowledge of Microsoft Products (Word, Excel, Visual Studio, Server & Desktop)'
+    - 'Various Linux, Unix and *BSD flavors and utilities'
+-   title: 'Merits, Awards, Certifications, and Organizations'
+    type: sentence
+    details:
+    - 'Two Army Achievement Medals'
+    - 'Successfully completed Green Belt training for lean manufacturing at Allied Signal'
+    - 'Certificate for successfully completing Coaching & Evaluation Seminar at Cobb-Vantress'
+    - 'President of the MSSU Computer Information Science Club'
+    - "Dean's list Honor Role - Spring and Fall 2007, Fall 2009"
+    - 'Member of Phi-Eta-Sigma -- Freshman Honors Society'
+    - 'Member of Sigma Tau Delta -- English Honors Society'
+
+#Work experience is required
+experiences:
+-   title: Software Developer
+    start: 1970
+    end: Ongoing
+    employer: Earth
+    description:
+    - 'Add as many descriptions as needed, just copy this line.'
+    - "Quotes aren't required"
+    - Just add words, but betware some characters can cause issues.
+    example:
+    - 'This is a place for specific examples of work done'
+-   title: Open Source
+    start: 1972
+    end: Present
+    employer: Internet
+    description:
+    - 'The Internet, enjoy it'
+-   title: Tutor - Mathematics and Computer Information Systems
+    start: 1970
+    end: present
+    employer: University
+    description:
+    - 'Tutored students requesting help in Algebra, basic Math, Trigonometry, as well as computer software use and development.'
+
+
+
+#Education is required
+education:
+-   level: Bachelor of Science (B.Sc.)
+    date: 1970
+    subject: Software Development
+    school: University
+-   level: Maybe a Masters
+    date: 1970
+    subject: English
+    school: Ann Other University
+
+# List of interesting Github repo/projects to include - optional
+# these examples won't work without real accounts
+github:
+-   user: user-name
+    fork: false # true to show contributor status
+    repo:
+    - user-name/repo1
+    - user-name/repo2
+    - user-name/repo3
+-   user: user-name-b
+    fork: false
+    repo:
+    - user-name-b/resume-source
+
+bitbucket: # Not yet supported, help is welcome
+
+#Stackoverflow flair is optional
+stackoverflow:
+    profileurl: https://stackoverflow.com/users/ # add your profile name
+    flairimageurl: https://stackoverflow.com/users/flair/ # add your flair image
+
+
+#An additional info freetext section is optional at the bottom of the page - can be text or HTML
+additionalinfo: |
+    <strong>Misc</strong>:<br/>Just add anything here, HTML works, enjoy and good luck
