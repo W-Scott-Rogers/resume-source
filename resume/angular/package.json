@@ -16,8 +16,7 @@
         "test": "ng test",
         "lint": "ng lint",
         "e2e": "ng e2e",
-        "ghp-s": "ng build --prod --output-path dist --base-href w-scott-rogers.github.io",
-        "ghp-d": "ng build --prod --output-path dist --base-href diesha-j-rogers.github.io"
+        "ghp": "ng build --prod --output-path dist --base-href ."
     },
     "private": true,
     "dependencies": {
