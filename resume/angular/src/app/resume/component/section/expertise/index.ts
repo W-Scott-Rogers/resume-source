@@ -1,1 +1,1 @@
-export * from './component/expertise.component'
+export {Expertise} from './component/expertise.component';

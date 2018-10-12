@@ -8,9 +8,13 @@ import {ExpertiseModel} from "../model/expertise.model";
 })
 export class Expertise implements OnInit {
     @Input()
-    data: ExpertiseModel;
+    data: any;
+
+    expertiseList: ExpertiseModel[] = [];
 
     ngOnInit(): void {
-        this.data = new ExpertiseModel().deserialize(this.data);
+        for (let expert of this.data) {
+            this.expertiseList.push(new ExpertiseModel().deserialize(expert));
+        }
     }
 }

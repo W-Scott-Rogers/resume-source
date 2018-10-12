@@ -27,12 +27,12 @@
         "@angular/platform-browser-dynamic": "^6.1.9",
         "@angular/cli": "^6.2.4",
         "bootstrap": "3.3.7",
+        "classlist.js": "^1.1.20150312",
         "rxjs": "^6.3.3",
         "tsickle": "^0.32.1",
         "tslib": "^1.9.0",
         "typescript": "~2.9.2",
         "zone.js": "^0.8.26",
-        "@trash80/github": "./projects/trash80/github",
         "@trash80/yaml": "./projects/trash80/yaml"
     },
     "devDependencies": {

@@ -1,4 +1,4 @@
-import {Serializable} from "./common.model";
+import {Serializable} from "../../common.model";
 
 export class EducationModel implements Serializable {
     level: string = '';
@@ -6,7 +6,7 @@ export class EducationModel implements Serializable {
     date: string = '';
     school: string = '';
 
-    deserialize(fields?: Partial<EducationModel>): EducationModel {
+    deserialize(fields?: any): EducationModel {
         let me = this;
         if (fields) {
             Object.keys(this).forEach(key => {

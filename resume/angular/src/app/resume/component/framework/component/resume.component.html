@@ -1,49 +1,31 @@
 <div *ngIf="configurationLoaded | async" class="body">
-    <resume-header [data]="data"></resume-header>
-    <div id="body&footer">
-        <div id="columns">
-            <div class="col-md-2" id="left-column">
-                <resume-stackoverflow [data]="data['stackoverflow']"></resume-stackoverflow>
-                <div id="expertise">
-                    <div class="expertise-section">Expertise</div>
 
-                    <div id="skillsBubble" class="rounded_panel linen-blond-box" *ngFor="let expert of data.expertise">
-                        <resume-expertise [data]="expert"></resume-expertise>
-                    </div>
-                </div>
-            </div>
+    <!-- Navigation Header -->
+    <resume-header [data]="data" *ngIf="data"></resume-header>
 
-            <div class="col-md-10" id="right-column">
-                <!--{% include section_intro.html %}-->
-                <div id="introduction" class="rounded_panel txt_lightgrey">
-                    <div class="top-rounded-panel grey-bg">
-                        <h1 id="user-intro">Introduction &amp; Background</h1>
-                    </div>
-                    <div class="content-rounded-panel" style="font-size: 15px;">
-                        <div id="introBlurb" *ngIf="data.introduction">
-                            <ul>
-                                <li *ngFor="let intro of data.introduction">{{intro}}</li>
-                            </ul>
-                        </div>
-                        <br>
-                    </div>
-                </div>
+    <div class="col-md-2">
+        <!-- Stackoverflow -->
+        <resume-stackoverflow [data]="data['stackoverflow']" *ngIf="data['stackoverflow']"></resume-stackoverflow>
 
-                <!--{% include section_workexperience.html %}-->
-                <resume-experience [data]="data"></resume-experience>
-
-                <!--{% include section_education.html %}-->
-                <resume-education [data]="data"></resume-education>
-
-                <!--{% include section_github.html %}-->
-                <div *ngFor="let github of data['github']">
-                    <vchs-github [data]="github"></vchs-github>
-                </div>
-
-                <!--{% include section_additionalinfo.html %}-->
-                <resume-additional [data]="data"></resume-additional>
-            </div>
-        </div>
+        <!-- Expertise -->
+        <resume-expertise [data]="data['expertise']" *ngIf="data['expertise']"></resume-expertise>
     </div>
-    <div style="text-align: center;" [innerHTML]="data['created-by']">&nbsp;</div>
+
+    <div class="col-md-10">
+        <!-- Introduction -->
+        <resume-introduction [data]="data['introduction']" *ngIf="data['introduction']"></resume-introduction>
+
+        <!-- Experience -->
+        <resume-experience [data]="data['experiences']" *ngIf="data['experiences']"></resume-experience>
+
+        <!-- Education -->
+        <resume-education [data]="data['education']" *ngIf="data['education']"></resume-education>
+
+        <!-- GitHub Repositories -->
+        <resume-vchs-github [data]="data['github']" *ngIf="data['github']"></resume-vchs-github>
+
+        <!-- Additional Information -->
+        <resume-additional [data]="data" *ngIf="data['additionalinfo']"></resume-additional>
+    </div>
+    <div style="text-align: center;" [innerHTML]="data['created-by']" *ngIf="data['created-by']">&nbsp;</div>
 </div>

@@ -1,11 +1,11 @@
 import {NavigationLinkModel} from "./navigation-link.model";
-import {Serializable} from "./common.model";
+import {Serializable} from "../../common.model";
 
 export class NavigationHeaderModel implements Serializable{
     title: string = '';
     primarylinks: Array<NavigationLinkModel> = Array<NavigationLinkModel>();
 
-    deserialize(fields?:Partial<NavigationHeaderModel>): NavigationHeaderModel {
+    deserialize(fields?: any): NavigationHeaderModel {
         if (fields) {
             Object.keys(this).forEach(key => {
                 if (Array.isArray(fields[key]) &&

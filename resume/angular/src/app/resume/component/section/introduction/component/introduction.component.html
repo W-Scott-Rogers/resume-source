@@ -1,0 +1,10 @@
+<div class="rounded_panel txt_lightgrey" *ngIf="data['introduction']">
+    <div class="top-rounded-panel grey-bg">
+        <h1>Introduction &amp; Background</h1>
+    </div>
+    <div class="content-rounded-panel" style="font-size: 15px;">
+        <ul>
+            <li *ngFor="let intro of data['introduction']">{{intro}}</li>
+        </ul>
+    </div>
+</div>

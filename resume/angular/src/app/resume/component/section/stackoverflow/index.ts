@@ -1,1 +1,1 @@
-export * from './component/stackoverflow.component'
+export {Stackoverflow} from './component/stackoverflow.component';

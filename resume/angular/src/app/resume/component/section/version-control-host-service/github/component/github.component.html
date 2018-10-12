@@ -1,45 +1,47 @@
-<div *ngIf="githubRepositoryLoaded | async" class="rounded_panel txt_lightgrey">
-    <div class="top-rounded-panel">
-        <h1>GitHub Projects — <a href="https://github.com/{{github.user}}"
-                                 title="https://github.com/{{github.user}}">{{github.user}}</a>
-        </h1>
-    </div>
-    <div class="content-rounded-panel" style="overflow: hidden;">
-        <div>
-            <div [class.row]="i%2 == 1" *ngFor="let repository of github.repositories; let i = index">
-                <div class="col-lg-6">
-                    <div>
-                        <div class="vcs-box repo">
-                            <div class="vcs-box-title">
-                                <h3>
-                                    <a class="repo"
-                                       href="{{repository.html_url}}"
-                                       title="{{repository.html_url}}">{{repository.full_name}}</a>
-                                </h3>
-                                <div class="vcs-stats">
-                                    <a class="watchers"
-                                       href="{{repository.html_url}}/watchers"
-                                       title="See watchers">{{repository.watchers}}</a>
-                                    <a class="forks"
-                                       href="{{repository.html_url}}/network/members"
-                                       title="See forkers">{{repository.forks}}</a>
+<div *ngFor="let github of githubList">
+    <div *ngIf="githubRepositoryLoaded | async" class="rounded_panel txt_lightgrey">
+        <div class="top-rounded-panel">
+            <h1>GitHub Projects — <a href="https://github.com/{{github.user}}"
+                                     title="https://github.com/{{github.user}}">{{github.user}}</a>
+            </h1>
+        </div>
+        <div class="content-rounded-panel" style="overflow: hidden;">
+            <div>
+                <div [class.row]="i%2 == 1" *ngFor="let repository of github.repositories; let i = index">
+                    <div class="col-lg-6">
+                        <div>
+                            <div class="vcs-box repo">
+                                <div class="vcs-box-title">
+                                    <h3>
+                                        <a class="repo"
+                                           href="{{repository.html_url}}"
+                                           title="{{repository.html_url}}">{{repository.full_name}}</a>
+                                    </h3>
+                                    <div class="vcs-stats">
+                                        <a class="watchers"
+                                           href="{{repository.html_url}}/watchers"
+                                           title="See watchers">{{repository.watchers}}</a>
+                                        <a class="forks"
+                                           href="{{repository.html_url}}/network/members"
+                                           title="See forkers">{{repository.forks}}</a>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="vcs-box-content">
-                                <p class="description">
-                                    <span>{{repository.description}}</span>
-                                    — <a href="{{repository.html_url}}#readme">Read More</a>
-                                </p>
-                                <p class="link"></p>
-                            </div>
-                            <div class="vcs-box-download">
-                                <div class="updated">
-                                    Latest commit to the <strong>{{repository.default_branch}}</strong>
-                                    branch on {{showDate(repository.pushed_at)}}
+                                <div class="vcs-box-content">
+                                    <p class="description">
+                                        <span>{{repository.description}}</span>
+                                        — <a href="{{repository.html_url}}#readme">Read More</a>
+                                    </p>
+                                    <p class="link"></p>
                                 </div>
-                                <a class="download"
-                                   href="{{repository.html_url}}/zipball/{{repository.default_branch}}"
-                                   title="Get an archive of this repository">Download as zip</a>
+                                <div class="vcs-box-download">
+                                    <div class="updated">
+                                        Latest commit to the <strong>{{repository.default_branch}}</strong>
+                                        branch on {{showDate(repository.pushed_at)}}
+                                    </div>
+                                    <a class="download"
+                                       href="{{repository.html_url}}/zipball/{{repository.default_branch}}"
+                                       title="Get an archive of this repository">Download as zip</a>
+                                </div>
                             </div>
                         </div>
                     </div>

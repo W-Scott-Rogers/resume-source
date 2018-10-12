@@ -1,10 +1,10 @@
-import {Serializable} from "./common.model";
+import {Serializable} from "../../common.model";
 
 export class StackoverflowModel implements Serializable{
     profileurl: string = '';
     flairimageurl: string = '';
 
-    deserialize(fields?: Partial<StackoverflowModel>): StackoverflowModel {
+    deserialize(fields?: any): StackoverflowModel {
         let me = this;
         if (fields) {
             Object.keys(this).forEach(key => {

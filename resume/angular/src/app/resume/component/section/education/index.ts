@@ -1,1 +1,1 @@
-export * from './component/education.component'
+export {Education} from './component/education.component';

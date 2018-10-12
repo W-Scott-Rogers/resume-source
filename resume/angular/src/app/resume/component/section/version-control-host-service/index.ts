@@ -1,1 +1,1 @@
-export * from './github'
+export {GithubComponent,GithubUserService} from './github';

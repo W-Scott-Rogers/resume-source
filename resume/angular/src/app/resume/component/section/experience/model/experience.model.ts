@@ -1,4 +1,4 @@
-import {Serializable} from "./common.model";
+import {Serializable} from "../../common.model";
 
 export class ExperienceModel implements Serializable {
     title: string = '';
@@ -8,7 +8,7 @@ export class ExperienceModel implements Serializable {
     description: string = '';
     example?: String[] = [];
 
-    deserialize(fields?: Partial<ExperienceModel>): ExperienceModel {
+    deserialize(fields?: any): ExperienceModel {
         let me = this;
         if (fields) {
             Object.keys(this).forEach(key => {

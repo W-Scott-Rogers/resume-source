@@ -1,11 +1,23 @@
-export class GithubRepositoryModel {
-    default_branch: string;
-    description: string;
-    forks: string;
-    full_name: string;
-    html_url: string;
-    pushed_at: string;
-    watchers: string;
+import {Serializable} from "../../../common.model";
+
+export class GithubRepositoryModel implements Serializable {
+    default_branch: string = '';
+    description: string = '';
+    forks: string = '';
+    full_name: string = '';
+    html_url: string = '';
+    pushed_at: string = '';
+    watchers: string = '';
+
+    deserialize(fields?: any): GithubRepositoryModel {
+        let me = this;
+        if (fields) {
+            Object.keys(this).forEach(key => {
+                me[key] = fields[key]
+            });
+        }
+        return this;
+    }
 }
 
 

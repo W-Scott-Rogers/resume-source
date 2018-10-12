@@ -1,16 +1,19 @@
-<div class="top-rounded-panel grey-bg">
-    <h1 id="user-skills">{{data.title}}</h1>
-</div>
-<div class="content-rounded-panel">
-    <div id="{{data.title}}-word" *ngIf="data.type == 'word'">
-        <div *ngFor="let detail of data.details"
-             class="expertise-tag label badge-info label-padded"><span> {{detail}} </span></div>
+<div class="expertise-section">Expertise</div>
+<div class="rounded_panel linen-blond-box" *ngFor="let expert of expertiseList">
+    <div class="top-rounded-panel grey-bg">
+        <h1>{{expert.title}}</h1>
     </div>
-    <div id="{{data.title}}-sentence" *ngIf="data.type == 'sentence'">
-        <dl style="margin: 0;">
-            <dt *ngFor="let detail of data.details"
-                class="expertise-term label badge-info label-padded"> {{detail}}
-            </dt>
-        </dl>
+    <div class="content-rounded-panel">
+        <div *ngIf="expert.type == 'word'">
+            <div *ngFor="let detail of expert.details"
+                 class="expertise-tag label badge-info label-padded"><span> {{detail}} </span></div>
+        </div>
+        <div *ngIf="expert.type == 'sentence'">
+            <dl style="margin: 0;">
+                <dt *ngFor="let detail of expert.details"
+                    class="expertise-term label badge-info label-padded"> {{detail}}
+                </dt>
+            </dl>
+        </div>
     </div>
 </div>

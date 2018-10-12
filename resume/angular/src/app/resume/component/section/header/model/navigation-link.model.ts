@@ -1,10 +1,10 @@
-import {Serializable} from "./common.model";
+import {Serializable} from "../../common.model";
 
 export class NavigationLinkModel implements Serializable{
     title: string = '';
     url: string = '';
 
-    deserialize(fields?:Partial<NavigationLinkModel>): NavigationLinkModel {
+    deserialize(fields?: any): NavigationLinkModel {
         let me = this;
         if (fields) {
             Object.keys(this).forEach(key => {

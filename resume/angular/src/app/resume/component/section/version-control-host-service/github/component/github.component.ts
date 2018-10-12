@@ -1,33 +1,42 @@
-import {GithubModel, GithubUserService} from "@trash80/github";
-import {AfterViewInit, Component, Input} from "@angular/core";
+import {Component, Input, OnInit} from "@angular/core";
+import {GithubModel} from "../model/github.model";
+import {GithubUserService} from "../service/github-user.service";
 
 
 @Component({
-    selector: 'vchs-github',
-    styleUrls: ['./github.component.css'],
-    templateUrl: './github.component.html'
+    selector: 'resume-vchs-github',
+    templateUrl: './github.component.html',
+    styleUrls: ['./github.component.css']
 })
-export class GithubComponent implements AfterViewInit {
+export class GithubComponent implements OnInit {
     @Input()
-    data: Object;
+    data: any;
 
-    github: GithubModel;
+    githubList: GithubModel[];
     githubRepositoryLoaded: Promise<boolean>;
 
     constructor(
         private githubUserService: GithubUserService
-    ) {
-        this.github = new GithubModel();
+    ) { }
+
+    ngOnInit(): void {
+        this.githubList = [];
+        for (let data of this.data) {
+            let githubModel = new GithubModel();
+            githubModel.user = data['user'];
+            this.loadRepository(githubModel, data['repo']);
+            this.githubList.push(githubModel);
+        }
     }
 
-    ngAfterViewInit(): void {
+    loadRepository(githubModel: GithubModel, repositoryList: String[]) {
         let me = this;
-        me.github.user = me.data['user'];
-        this.githubUserService.getForUser(me.github.user).subscribe((response: Object) => {
+        this.githubUserService.getForUser(githubModel.user).subscribe((response: Object) => {
             if (response['meta']['status'] === 200) {
-                me.github.repositories = response['data'].filter(repo => {
-                    return me.data['repo'].includes(repo['full_name']);
+                let repositories = response['data'].filter(repo => {
+                    return repositoryList.includes(repo['full_name']);
                 });
+                githubModel.deserialize(repositories);
             }
             me.githubRepositoryLoaded = Promise.resolve(true);
         });

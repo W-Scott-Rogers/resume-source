@@ -1,9 +1,9 @@
-import {Serializable} from "./common.model";
+import {Serializable} from "../../common.model";
 
 export class AdditionalModel implements Serializable {
     additionalinfo: string = '';
 
-    deserialize(fields?: Partial<AdditionalModel>): AdditionalModel {
+    deserialize(fields?: any): AdditionalModel {
         let me = this;
         if (fields) {
             Object.keys(this).forEach(key => {
@@ -12,5 +12,4 @@ export class AdditionalModel implements Serializable {
         }
         return this;
     }
-
 }
